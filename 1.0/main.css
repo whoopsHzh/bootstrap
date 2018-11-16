@@ -2,3 +2,19 @@
 /* body{
     background: #000;
 } */
+
+.navbar-brand{
+    background-image: url(../img/yellow.png);
+    background-size: 100%;
+    width: 50px;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+.side-bar .list-group-item{
+    border: 0px;
+    border-radius: 4px;
+    margin-bottom: 5px;
+}
+.side-bar .list-group-item.active{
+    background-color: red;
+}
