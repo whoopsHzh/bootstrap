@@ -2,9 +2,10 @@
 /* body{
     background: #000;
 } */
-img{
+img,.side-bar,.Rside-bar{
     display: block;
     width: 100%;
+    border-radius: 4px;
 }
 a:hover{
     text-decoration: none;
@@ -66,4 +67,20 @@ a:hover{
 .text-lg{
     font-size: 1.3em;
     font-weight: bold;
+}
+.Rside-bar .card-title,
+.Rside-bar .card-body .list .item{
+    padding: 7px 15px;
+}
+
+.Rside-bar .card-body .list .item:hover{
+    background-color: #AAA;
+}
+.Rside-bar .card-body .list .item .title{
+    padding-bottom: 5px;
+}
+
+.Rside-bar .card-title{
+    font-weight: bold;
+    font-size: 1.2em;
 }
