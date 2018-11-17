@@ -58,3 +58,12 @@ a:hover{
     height: 12px;
     margin-right: 3px;
 }
+.Rside-bar{
+    background: #EEE;
+    margin-top: 20px;
+    padding-top: 10px;
+}
+.text-lg{
+    font-size: 1.3em;
+    font-weight: bold;
+}
