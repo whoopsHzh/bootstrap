@@ -2,6 +2,7 @@
 /* body{
     background: #000;
 } */
+
 img,.side-bar,.Rside-bar{
     display: block;
     width: 100%;
@@ -50,6 +51,16 @@ a:hover{
 .new-list .new-list-item .info{
     color: #888;
 }
+.info{
+    color: #888;
+}
+.info .info-margin{
+    margin-bottom :20px; 
+}
+.new-container{
+    font-size: 1.2em;
+    line-height: 1.6em;
+}
 .usePic{
     display: inline-block;
 }
@@ -83,4 +94,16 @@ a:hover{
 .Rside-bar .card-title{
     font-weight: bold;
     font-size: 1.2em;
+}
+.side-h1{
+    color:#444;
+}
+.news-list .news-list-item{
+    margin-bottom: 20px;
+}
+.news-list .news-list-item .news-list-item-info{
+    vertical-align:middle;
+}
+.news-list .news-list-item img{
+    max-height: 120px;
 }
