@@ -107,3 +107,12 @@ a:hover{
 .news-list .news-list-item img{
     max-height: 120px;
 }
+.container-width{
+    max-width: 700px;
+}
+footer{
+    margin-top: 20px;
+    padding: 20px 0;
+    text-align: center;
+    color: #999;
+}
